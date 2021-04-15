@@ -1,0 +1,12 @@
+{
+  "Company": {
+    "id": "int",
+    "companyName": "string",
+    "stocks" : "Stock[]"
+  },
+  "Stock": {
+    "id": "int",
+    "symbol": "string",
+    "company" : "Company"
+  }
+}
